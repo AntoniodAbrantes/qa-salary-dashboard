@@ -1,6 +1,9 @@
 import { useEffect, useState } from 'react';
 import { BarChart, Bar, LineChart, Line, XAxis, YAxis, CartesianGrid, Tooltip, Legend, ResponsiveContainer, PieChart, Pie, Cell } from 'recharts';
 import { Card, CardContent, CardDescription, CardHeader, CardTitle } from '@/components/ui/card';
+import { Button } from '@/components/ui/button';
+import { Link } from 'wouter';
+import { Info } from 'lucide-react';
 import { APP_TITLE } from '@/const';
 
 interface SalaryData {
@@ -79,6 +82,14 @@ export default function Home() {
           <h1 className="text-4xl font-bold text-gray-900 mb-2">{APP_TITLE}</h1>
           <p className="text-xl text-gray-600">Análise Comparativa de Salários para QA Júnior</p>
           <p className="text-sm text-gray-500 mt-2">Rio de Janeiro (RJ) vs João Pessoa (PB)</p>
+          <div className="mt-4">
+            <Link href="/sobre-dados">
+              <Button variant="outline" className="inline-flex items-center gap-2">
+                <Info className="h-4 w-4" />
+                Ver Fontes de Dados
+              </Button>
+            </Link>
+          </div>
         </div>
       </div>
 
