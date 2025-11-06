@@ -1,0 +1,22 @@
+[
+    {
+        "cidade": "Rio de Janeiro",
+        "regime": "CLT",
+        "salario_medio": 4829.61
+    },
+    {
+        "cidade": "Rio de Janeiro",
+        "regime": "PJ (Estimado)",
+        "salario_medio": 7727.38
+    },
+    {
+        "cidade": "João Pessoa",
+        "regime": "CLT",
+        "salario_medio": 3067.56
+    },
+    {
+        "cidade": "João Pessoa",
+        "regime": "PJ (Estimado)",
+        "salario_medio": 4908.1
+    }
+]
